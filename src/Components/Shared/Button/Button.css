@@ -1,0 +1,28 @@
+.click {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.arrow {
+    margin-left: 10px;
+}
+
+.buttonStyle {
+    background-color: #0077FF;
+    height: 40px;
+    border-radius: 20px;
+   border:none;
+    margin-bottom: 20px;
+    cursor:pointer; 
+    transition:all .3s ease-in-out;
+}
+.buttonStyle:hover{
+    background-color: #014a9c;
+}
+.username {
+    margin-left: 10px;
+    font-size: 13px;
+    font-weight: bold;
+    color: #ffffff;
+}
