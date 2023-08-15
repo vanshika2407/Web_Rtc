@@ -1,0 +1,17 @@
+.otpContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 8.5rem;
+}
+.otpButton{
+    display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 20px;
+    }
+.para {
+    color: #c4c4c4;
+    width: 70%;
+    margin: 0 auto;
+}

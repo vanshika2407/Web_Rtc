@@ -10,9 +10,9 @@ function Home()
    textDecoration:'none'
     }
     const history=useNavigate()
-    function getUsername()
+    function getLogin()
     {
-          history("/register");
+          history("/authenticate");
     }
     return (
         <div className='containerHome'>
@@ -23,13 +23,13 @@ function Home()
           Enjoy your evenings talking to friends and also joining new rooms to gain knowledge</p>
 
           <div className='click'>
-            <Button onClick={getUsername} username="Get Your Username" logo="/images/Arrow.png">
+            <Button onClick={getLogin} username="Let's Go" logo="/images/Arrow.png">
             </Button>
           </div>
 
           <div>
             <span className='link'>Have An Invite Text?</span>
-            <Link style={styles} to="/login">Sign In</Link>
+            {/* <Link style={styles} to="/login">Sign In</Link> */}
           </div>
        </Card>
         </div>

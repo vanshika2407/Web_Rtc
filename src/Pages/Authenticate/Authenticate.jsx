@@ -1,13 +1,13 @@
 import React from 'react';
 import { useState } from 'react';
-import phoneEmail from '../Steps/stepPhoneEmail/phoneEmail'
-import otp from '../Steps/stepOtp/otp';
+import PhoneEmail from '../Steps/stepPhoneEmail/PhoneEmail'
+import Otp from '../Steps/stepOtp/otp';
 
 const steps={
-    1: phoneEmail,
-    2: otp,
+    1: PhoneEmail,
+    2: Otp,
 };
-function Login()
+function Authenticate()
 {
      const [step,setStep]=useState(1);
      const Step=steps[step];
@@ -21,4 +21,4 @@ function Login()
     )
 }
 
-export default Login;
+export default Authenticate;
